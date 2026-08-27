@@ -1,0 +1,9 @@
+Archive Info is inspired by archive and cybersecurity-themed interfaces.
+
+Credits:
+- Design direction: cyberpunk red-black aesthetic
+- Core stack: HTML, CSS, JavaScript, Node.js
+- Security hardening: custom middleware for headers, rate limiting, and request validation
+- Fonts: Google Fonts (Orbitron, Inter)
+
+This project is intended for informational archive and file-format documentation use.

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Archive List | Archive Info</title>
+    <link rel="icon" type="image/svg+xml" href="/public/icons/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/public/styles/list.css" />
+  </head>
+  <body>
+    <div class="shell">
+      <header class="topbar">
+        <div class="brand-wrap">
+          <div class="brand-mark">
+            <img src="/public/icons/favicon.svg" alt="Archive Info logo" />
+          </div>
+          <div>
+            <p class="eyebrow">Archive Network</p>
+            <h1>Archive List</h1>
+          </div>
+        </div>
+        <nav class="main-nav">
+          <a href="/">Home</a>
+          <a href="/dashboard">Dashboard</a>
+        </nav>
+      </header>
+
+      <main class="content">
+        <section class="panel intro-panel">
+          <p class="eyebrow red-glow">Archive catalog</p>
+          <h2>Format arsip yang tersedia</h2>
+          <div class="filter-bar" aria-label="Filter format arsip">
+            <button class="filter-btn active" data-filter="all">Semua</button>
+            <button class="filter-btn" data-filter="universal">Universal</button>
+            <button class="filter-btn" data-filter="compression">Compression</button>
+            <button class="filter-btn" data-filter="linux">Linux</button>
+            <button class="filter-btn" data-filter="disk">Disk Image</button>
+          </div>
+        </section>
+
+        <section class="summary-grid">
+          <div class="summary-box">
+            <span>Format dipantau</span>
+            <strong>6</strong>
+          </div>
+          <div class="summary-box">
+            <span>Mode aman</span>
+            <strong>256-bit</strong>
+          </div>
+          <div class="summary-box">
+            <span>Efisiensi</span>
+            <strong>97%</strong>
+          </div>
+        </section>
+
+        <section class="list-wrap" id="archive-list"></section>
+      </main>
+    </div>
+
+    <script src="/public/js/list.js"></script>
+  </body>
+</html>

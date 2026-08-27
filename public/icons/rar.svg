@@ -1,0 +1,17 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="rarBg" x1="18" y1="12" x2="110" y2="116" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#160E14"/>
+      <stop offset="1" stop-color="#0B0D12"/>
+    </linearGradient>
+    <linearGradient id="rarAccent" x1="26" y1="18" x2="98" y2="104" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF475B"/>
+      <stop offset="1" stop-color="#FF9A6C"/>
+    </linearGradient>
+  </defs>
+  <rect x="12" y="10" width="104" height="108" rx="22" fill="url(#rarBg)" stroke="#FF475B" stroke-opacity="0.7" stroke-width="2"/>
+  <path d="M40 28H88L100 40V92C100 97.5228 95.5228 102 90 102H38C32.4772 102 28 97.5228 28 92V40L40 28Z" fill="url(#rarAccent)" fill-opacity="0.12" stroke="url(#rarAccent)" stroke-width="4"/>
+  <path d="M48 60C48 53.3726 53.3726 48 60 48H68C74.6274 48 80 53.3726 80 60V66C80 71.5 76.25 76 71 76H60C54.5 76 50 80.5 50 86V86C50 90.4183 53.5817 94 58 94H72" stroke="url(#rarAccent)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M64 42V92" stroke="#FDE7EA" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="64" cy="30" r="6" fill="#FF475B"/>
+</svg>

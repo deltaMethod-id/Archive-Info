@@ -1,0 +1,16 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gzBg" x1="18" y1="10" x2="108" y2="116" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#170F15"/>
+      <stop offset="1" stop-color="#0B0D12"/>
+    </linearGradient>
+    <linearGradient id="gzAccent" x1="28" y1="22" x2="98" y2="102" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF556C"/>
+      <stop offset="1" stop-color="#FF9E72"/>
+    </linearGradient>
+  </defs>
+  <rect x="12" y="10" width="104" height="108" rx="22" fill="url(#gzBg)" stroke="#FF556C" stroke-opacity="0.7" stroke-width="2"/>
+  <path d="M40 30H88L100 42V92C100 97.5228 95.5228 102 90 102H38C32.4772 102 28 97.5228 28 92V42L40 30Z" fill="url(#gzAccent)" fill-opacity="0.12" stroke="url(#gzAccent)" stroke-width="4"/>
+  <path d="M56 50C56 46.6863 58.6863 44 62 44H66C69.3137 44 72 46.6863 72 50V56C72 59.3137 69.3137 62 66 62H62C58.6863 62 56 64.6863 56 68V70C56 73.3137 58.6863 76 62 76H72" stroke="url(#gzAccent)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M78 48V88M78 88H68M78 88H88" stroke="#FDE7EA" stroke-width="4" stroke-linecap="round"/>
+</svg>

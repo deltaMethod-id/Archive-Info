@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Archive Info menyediakan panduan lengkap format arsip seperti ZIP, RAR, 7Z, TAR, GZ, dan lainnya dengan tema cyberpunk merah-hitam." />
+    <title>Archive Info</title>
+    <link rel="icon" type="image/svg+xml" href="/public/icons/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/public/styles/index.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <div class="brand-wrap">
+          <div class="brand-mark">
+            <img src="/public/icons/favicon.svg" alt="Archive Info logo" />
+          </div>
+          <div>
+            <p class="eyebrow">Archive Network</p>
+            <h1>Archive Info</h1>
+          </div>
+        </div>
+
+        <nav class="main-nav" aria-label="Navigasi utama">
+          <a href="#formats">Format</a>
+          <a href="#compare">Perbandingan</a>
+          <a href="#tips">Tips</a>
+        </nav>
+
+        <a class="nav-cta" href="#formats">Jelajahi</a>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div class="hero-copy">
+            <p class="eyebrow red-glow">Sistem arsip digital</p>
+            <h2>Semua format arsip dalam satu pusat intelijen.</h2>
+            <p class="lead">
+              Archive Info membantu Anda memahami format file seperti <strong>.zip</strong>,
+              <strong>.rar</strong>, <strong>.7z</strong>, <strong>.tar</strong>, dan <strong>.gz</strong>
+              agar proses kompresi, backup, dan pengiriman data lebih aman dan efisien.
+            </p>
+
+            <div class="hero-actions">
+              <a class="primary-btn" href="#formats">Lihat format</a>
+              <a class="secondary-btn" href="#compare">Bandingkan</a>
+            </div>
+
+            <div class="stats-grid" aria-label="Statistik arsip">
+              <div class="stat-card">
+                <span class="stat-value">6+</span>
+                <span class="stat-label">Format utama</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-value">99%</span>
+                <span class="stat-label">Kompatibilitas</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-value">24/7</span>
+                <span class="stat-label">Akses data</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-panel" aria-label="Preview format arsip">
+            <div class="panel-header">
+              <span class="status-dot"></span>
+              <span>archive_status</span>
+            </div>
+
+            <div class="panel-body">
+              <div class="file-row active">
+                <span class="file-name">archive_project.zip</span>
+                <span class="file-meta">94% compact</span>
+              </div>
+              <div class="file-row">
+                <span class="file-name">secure_backup.rar</span>
+                <span class="file-meta">256-bit</span>
+              </div>
+              <div class="file-row">
+                <span class="file-name">system_7z.7z</span>
+                <span class="file-meta">High ratio</span>
+              </div>
+              <div class="file-row">
+                <span class="file-name">archive.tar.gz</span>
+                <span class="file-meta">Linux ready</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="formats">
+          <div class="section-heading">
+            <p class="eyebrow red-glow">Format arsip</p>
+            <h3>Jenis arsip yang paling sering digunakan</h3>
+          </div>
+
+          <div class="archive-grid">
+            <article class="archive-card featured">
+              <div class="card-icon">ZIP</div>
+              <h4>ZIP</h4>
+              <p>Format universal untuk file dokumen, aplikasi, dan distribusi data yang kompatibel di banyak sistem.</p>
+              <ul>
+                <li>Ramah lintas platform</li>
+                <li>Ukuran kompresi bagus</li>
+                <li>Digunakan di web dan email</li>
+              </ul>
+            </article>
+
+            <article class="archive-card">
+              <div class="card-icon">RAR</div>
+              <h4>RAR</h4>
+              <p>Memberikan rasio kompresi yang kuat untuk file besar serta dukungan split archive dan enkripsi.</p>
+              <ul>
+                <li>Ukuran lebih efisien</li>
+                <li>Enkripsi password</li>
+                <li>Backup berukuran besar</li>
+              </ul>
+            </article>
+
+            <article class="archive-card">
+              <div class="card-icon">7Z</div>
+              <h4>7Z</h4>
+              <p>Format modern dengan kompresi paling efisien untuk file dan folder besar yang perlu dihemat ruang.</p>
+              <ul>
+                <li>Rasio tinggi</li>
+                <li>Open source</li>
+                <li>Opsi AES-256</li>
+              </ul>
+            </article>
+
+            <article class="archive-card">
+              <div class="card-icon">TAR</div>
+              <h4>TAR</h4>
+              <p>Standar sistem Unix untuk mengemas file tanpa kompresi, sering dikombinasikan dengan gzip atau xz.</p>
+              <ul>
+                <li>Backup server</li>
+                <li>Struktur stabil</li>
+                <li>Linux dan terminal</li>
+              </ul>
+            </article>
+
+            <article class="archive-card">
+              <div class="card-icon">GZ</div>
+              <h4>GZ</h4>
+              <p>Biasanya dipakai untuk kompresi file tunggal, paling sering digunakan pada sistem Linux dan proyek open source.</p>
+              <ul>
+                <li>Ringan dan cepat</li>
+                <li>Backup sistem</li>
+                <li>Cocok untuk file log</li>
+              </ul>
+            </article>
+
+            <article class="archive-card">
+              <div class="card-icon">ISO</div>
+              <h4>ISO</h4>
+              <p>Menangkap keseluruhan image disk untuk bootable installer, game, atau distribusi perangkat lunak.</p>
+              <ul>
+                <li>Bootable media</li>
+                <li>Mirroring disk</li>
+                <li>Distribusi aplikasi</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <section class="section compare-section" id="compare">
+          <div class="section-heading">
+            <p class="eyebrow red-glow">Perbandingan</p>
+            <h3>Mana yang paling cocok?</h3>
+          </div>
+
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Format</th>
+                  <th>Kompresi</th>
+                  <th>Kecepatan</th>
+                  <th>Keamanan</th>
+                  <th>Penggunaan terbaik</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>ZIP</td>
+                  <td>Baik</td>
+                  <td>Fast</td>
+                  <td>Standar</td>
+                  <td>Dokumen & file umum</td>
+                </tr>
+                <tr>
+                  <td>RAR</td>
+                  <td>Sangat baik</td>
+                  <td>Menengah</td>
+                  <td>Baik</td>
+                  <td>Backup besar & password</td>
+                </tr>
+                <tr>
+                  <td>7Z</td>
+                  <td>Terbaik</td>
+                  <td>Menengah</td>
+                  <td>Baik sekali</td>
+                  <td>File besar dan efisiensi ruang</td>
+                </tr>
+                <tr>
+                  <td>TAR</td>
+                  <td>Tidak kompresi</td>
+                  <td>Fast</td>
+                  <td>Standar</td>
+                  <td>Backup server Linux</td>
+                </tr>
+                <tr>
+                  <td>GZ</td>
+                  <td>Baik</td>
+                  <td>Fast</td>
+                  <td>Standar</td>
+                  <td>File log & paket Linux</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="section tips-section" id="tips">
+          <div class="section-heading">
+            <p class="eyebrow red-glow">Panduan</p>
+            <h3>Tips aman saat bekerja dengan archive</h3>
+          </div>
+
+          <div class="tips-grid">
+            <div class="tip-box">
+              <span class="tip-index">01</span>
+              <h4>Periksa sumber file</h4>
+              <p>Hindari mengekstrak arsip dari pengirim yang tidak dikenal karena risiko malware dan file berbahaya.</p>
+            </div>
+            <div class="tip-box">
+              <span class="tip-index">02</span>
+              <h4>Gunakan password yang kuat</h4>
+              <p>Untuk file penting, gunakan kombinasi password yang unik dan simpan dengan aman.</p>
+            </div>
+            <div class="tip-box">
+              <span class="tip-index">03</span>
+              <h4>Pilih format sesuai kebutuhan</h4>
+              <p>ZIP untuk umum, 7Z untuk efisiensi ruang, TAR/GZ untuk server, dan ISO untuk image media.</p>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <p>© <span id="year"></span> Archive Info</p>
+        <p>Cyberpunk archive intelligence</p>
+      </footer>
+    </div>
+
+    <script src="/public/js/index.js"></script>
+  </body>
+</html>

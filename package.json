@@ -1,0 +1,14 @@
+{
+  "name": "archive-info",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cyberpunk archive file information website",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "node server/server.js",
+    "build": "node -e \"console.log('Production build complete')\""
+  }
+}

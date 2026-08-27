@@ -1,0 +1,133 @@
+:root {
+  --bg: #090a0d;
+  --panel: rgba(17, 18, 26, 0.92);
+  --line: rgba(255, 88, 104, 0.24);
+  --red: #ff3b52;
+  --red-bright: #ff7788;
+  --muted: #d1d8ee;
+  --white: #f9fbff;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: 'Inter', sans-serif;
+  background: radial-gradient(circle at top, rgba(255, 59, 82, 0.2), transparent 30%), linear-gradient(135deg, #090a0d, #10131a 55%, #08090d);
+  color: var(--white);
+}
+
+.shell {
+  width: min(1100px, calc(100% - 32px));
+  margin: 0 auto;
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 28px 0 18px;
+}
+
+.brand-wrap {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.brand-mark {
+  width: 52px;
+  height: 52px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, rgba(255, 77, 104, 0.18), rgba(255, 139, 114, 0.08));
+  border: 1px solid rgba(255, 99, 123, 0.45);
+  display: grid;
+  place-items: center;
+  box-shadow: 0 0 28px rgba(255, 59, 82, 0.25);
+  overflow: hidden;
+}
+
+.brand-mark img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.eyebrow {
+  margin: 0 0 6px;
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.red-glow { color: var(--red-bright); text-shadow: 0 0 14px rgba(255, 90, 103, 0.7); }
+
+.main-nav {
+  display: flex;
+  gap: 18px;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: var(--muted);
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: 1.3fr 0.7fr;
+  gap: 24px;
+  padding-top: 12px;
+}
+
+.panel {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  padding: 24px;
+}
+
+.stat-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(120px, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.stat-box {
+  border: 1px solid var(--line);
+  background: rgba(255,255,255,0.02);
+  border-radius: 14px;
+  padding: 18px 16px;
+}
+
+.stat-box span {
+  display: block;
+  color: var(--muted);
+  margin-bottom: 10px;
+}
+
+.stat-box strong {
+  font-size: 2rem;
+  color: var(--red-bright);
+  font-family: 'Orbitron', sans-serif;
+}
+
+.log-panel ul {
+  margin: 20px 0 0;
+  padding-left: 18px;
+  color: var(--muted);
+  line-height: 2;
+}
+
+@media (max-width: 760px) {
+  .dashboard-grid {
+    grid-template-columns: 1fr;
+  }
+}

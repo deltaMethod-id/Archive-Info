@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "/", "dest": "/public/pages/index.html" },
+    { "src": "/index", "dest": "/public/pages/index.html" },
+    { "src": "/list", "dest": "/public/pages/list.html" },
+    { "src": "/dashboard", "dest": "/public/pages/dashboard.html" },
+    { "src": "/403", "dest": "/public/pages/403.html" },
+    { "src": "/404", "dest": "/public/pages/404.html" },
+    { "src": "/public/(.*)", "dest": "/public/$1" },
+    { "src": "/(.*)", "status": 404, "dest": "/public/pages/404.html" }
+  ]
+}
