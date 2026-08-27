@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://archiveinfo.example.com/sitemap.xml
+Sitemap: https://archive-info.vercel.app/sitemap.xml
