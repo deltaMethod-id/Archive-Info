@@ -1,15 +1,32 @@
 {
   "version": 2,
+  "buildCommand": "npm run build",
+  "outputDirectory": "public",
   "cleanUrls": true,
-  "trailingSlash": false,
-  "routes": [
-    { "handle": "filesystem" },
-    { "src": "/", "dest": "/pages/index.html" },
-    { "src": "/index", "dest": "/pages/index.html" },
-    { "src": "/list", "dest": "/pages/list.html" },
-    { "src": "/dashboard", "dest": "/pages/dashboard.html" },
-    { "src": "/403", "dest": "/pages/403.html" },
-    { "src": "/404", "dest": "/pages/404.html" },
-    { "src": "/(.*)", "status": 404, "dest": "/pages/404.html" }
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/pages/index.html"
+    },
+    {
+      "source": "/index",
+      "destination": "/pages/index.html"
+    },
+    {
+      "source": "/list",
+      "destination": "/pages/list.html"
+    },
+    {
+      "source": "/dashboard",
+      "destination": "/pages/dashboard.html"
+    },
+    {
+      "source": "/403",
+      "destination": "/pages/403.html"
+    },
+    {
+      "source": "/404",
+      "destination": "/pages/404.html"
+    }
   ]
 }
