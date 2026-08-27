@@ -1,32 +1,19 @@
 {
   "version": 2,
-  "buildCommand": "npm run build",
-  "outputDirectory": "public",
-  "cleanUrls": true,
-  "rewrites": [
+  "builds": [
     {
-      "source": "/",
-      "destination": "/pages/index.html"
+      "src": "server/server.js",
+      "use": "@vercel/node"
     },
     {
-      "source": "/index",
-      "destination": "/pages/index.html"
-    },
+      "src": "public/**",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
     {
-      "source": "/list",
-      "destination": "/pages/list.html"
-    },
-    {
-      "source": "/dashboard",
-      "destination": "/pages/dashboard.html"
-    },
-    {
-      "source": "/403",
-      "destination": "/pages/403.html"
-    },
-    {
-      "source": "/404",
-      "destination": "/pages/404.html"
+      "src": "/(.*)",
+      "dest": "server/server.js"
     }
   ]
 }
